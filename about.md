@@ -18,4 +18,4 @@ Research Areas - Networking, Active Queue Management, Congestion Control, TCP
 
 ### Contact me
 
-[email@domain.com](mailto:rohit.tahil@gmail.com)
+[rohit.tahil@gmail.com](mailto:rohit.tahil@gmail.com)
