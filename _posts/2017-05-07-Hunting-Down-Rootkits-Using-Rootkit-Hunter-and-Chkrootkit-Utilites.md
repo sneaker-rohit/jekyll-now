@@ -21,3 +21,5 @@ sudo apt-get install chkrootkit
 chkrootkit 
 
 chkrootkit is a shell script that checks system binaries for rootkit modifications.
+
+You may want to create a cronjob that executes these utilities every day and emails the logs to you on your email address. 
