@@ -11,13 +11,15 @@ on any vulnerable stuff by any chance.
 Below are the steps to turn on TLS 1.3 on your smartphones. Chrome Canary browser provides a mechanism to turn on
 TLS 1.3.
 
-1. Install Chrome Canary for your Android/IOS based Smartphone.
+I. Install Chrome Canary for your Android/IOS based Smartphone.
 
-2. Open Chrome Canary and in the URL enter "chrome://flags"
+II. Open Chrome Canary and in the URL enter "chrome://flags"
 
-![Chrome Canary](/images/flags.png){:class="img-responsive"}
+![Chrome Canary](/images/flags.png =50x50){:class="img-responsive"}
 
-3. Search for "Maximum TLS version enabled" and change if from "Default" to "TLS 1.3"
+III. Search for "Maximum TLS version enabled" and change if from "Default" to "TLS 1.3"
+
+![Verify that TLS 1.3 is turned on](/images/cloudfare.png =50x50){:class="img-responsive"}
 
 That's it. It's time to relaunch your browser :)
 
@@ -26,4 +28,4 @@ as shown in the figure below.
 
 We can see that the connection is using TLS 1.3. In this example, we chose Cloudfare because they have already turned
 on the support for TLS 1.3. TLS 1.3 deployment will eventually occur over the internet. Therefore, it's a long time
-before we start seeing a plethora of servers using TLS 1.3.    
+before we start seeing a plethora of servers using TLS 1.3.
