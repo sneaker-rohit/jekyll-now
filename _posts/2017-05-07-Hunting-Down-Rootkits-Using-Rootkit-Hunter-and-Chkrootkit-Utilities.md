@@ -1,10 +1,10 @@
-The motivation of this post is to brief about using utilities such as rkhunter and chkrootkit to hunt down rootkits.
+This post aims to brief about using utilities such as rkhunter and chkrootkit to hunt down rootkits.
 
 With the ever-increasing number of attacks on systems, it is indispensable for system administrators to keep an eye on the malicious softwares being installed on their system. Rootkit Hunter and Chkrootkit are two popular utilities that can help to hunt down rootkits.
 
 Rootkits are the softwares that make the operating system believe that the system files are as expected and there is no malicious activity going on. Rootkits serve as a layer of shield for the virus and the malware so that they can remain undetected by the antivirus softwares. 
 
-The packages for debian systems can be installed with the package name as rkhunter and chkrootkit.
+The packages for debian systems could be installed with the package name as rkhunter and chkrootkit.
 
 sudo apt-get install rkhunter 
 
