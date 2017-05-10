@@ -19,12 +19,12 @@ II. Open Chrome Canary and in the URL enter "chrome://flags"
 
 III. Search for "Maximum TLS version enabled" and change if from "Default" to "TLS 1.3"
 
-![Verify that TLS 1.3 is turned on](/images/cloudfare.png){:class="img-responsive" height="700px" width="400px"}
-
 That's it. It's time to relaunch your browser :)
 
 To verify, you can visit Cloudfare and click on the padlock icon on the left of the URL and click on "see details"
 as shown in the figure below.
+
+![Verify that TLS 1.3 is turned on](/images/cloudfare.png){:class="img-responsive" height="700px" width="400px"}
 
 We can see that the connection is using TLS 1.3. In this example, we chose Cloudfare because they have already turned
 on the support for TLS 1.3. TLS 1.3 deployment will eventually occur over the internet. Therefore, it's a long time
