@@ -15,11 +15,11 @@ I. Install Chrome Canary for your Android/IOS based Smartphone.
 
 II. Open Chrome Canary and in the URL enter "chrome://flags"
 
-![Chrome Canary](/images/flags.png){:class="img-responsive" height="400px" width="400px"}
+![Chrome Canary](/images/flags.png){:class="img-responsive" height="500px" width="400px"}
 
 III. Search for "Maximum TLS version enabled" and change if from "Default" to "TLS 1.3"
 
-![Verify that TLS 1.3 is turned on](/images/cloudfare.png){:class="img-responsive" height="400px" width="400px"}
+![Verify that TLS 1.3 is turned on](/images/cloudfare.png){:class="img-responsive" height="500px" width="400px"}
 
 That's it. It's time to relaunch your browser :)
 
