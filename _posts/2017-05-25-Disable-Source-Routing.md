@@ -1,4 +1,4 @@
-Source Routing is a feature that allows the sender of the packet to specify the route that the destination must take while sending back an reply. Now, assume a situation that an attacker manages to inject a source routed packet into your network. The attacker might configure a malicious path for the packet and cause security issues.
+Source Routing is a feature that allows the sender of the packet to specify the route that the destination must take while sending back a reply. Now, assume a situation that an attacker manages to inject a source routed packet into your network. The attacker might configure a malicious path for the packet and cause security concerns for you.
 
 It is best to disable source rotuing. On Cisco routers, the source routing can be disabled by
 
