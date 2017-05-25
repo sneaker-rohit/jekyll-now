@@ -6,19 +6,19 @@ Rootkits are the softwares that make the operating system believe that the syste
 
 The packages for debian systems could be installed with the package name as rkhunter and chkrootkit.
 
-sudo apt-get install rkhunter 
+`sudo apt-get install rkhunter` 
 
 This installs rootkit hunter. In order to run rkhunter, you can type 
 
-rkhunter --check 
+`rkhunter --check` 
 
 This will begin the process of scanning your system. Keep pressing enter to allow rkhunter to perform multiple level of checks. There's a lot more you can do with rkhunter. Just enter rkhunter --help and explore :)
 
 To install and run chkrootkit, just enter 
 
-sudo apt-get install chkrootkit 
+`sudo apt-get install chkrootkit` 
 
-chkrootkit 
+`chkrootkit` 
 
 chkrootkit is a shell script that checks system binaries for rootkit modifications.
 
