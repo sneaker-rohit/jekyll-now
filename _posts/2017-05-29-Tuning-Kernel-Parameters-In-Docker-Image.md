@@ -1,4 +1,3 @@
-Tuning Kernel Parameters In Docker Image  
 
 In this post, I will walkthrough the basic steps needed in order to tune the kernel parameters 
 in the docker image of your desired distro.
