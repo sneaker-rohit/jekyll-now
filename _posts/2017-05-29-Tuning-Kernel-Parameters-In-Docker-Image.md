@@ -2,11 +2,11 @@
 In this post, I will walkthrough the basic steps needed in order to tune the kernel parameters 
 in the docker image of your desired distro.
 
-1. Pull the docker image from the dockerhub.
+Pull the docker image from the dockerhub.
 
 `docker pull ubuntu`
 
-2. Execute the command 
+Execute the command 
 
 `docker run -it --rm --privileged ubuntu` 
 
@@ -21,17 +21,17 @@ As an example, let's enable IP forwaring on this image. Execute
 
 Keep this terminal open.
 
-3. Open another terminal. Now, let's try to make a new image which will have these settings.
+Open another terminal. Now, let's try to make a new image which will have these settings.
 
 `docker commit <containerid> <imagename>:<imagetag>`
 
 `docker commit fe1799e6987e tuning:latest`
 
-4. You can now view the images by typing
+You can now view the images by typing
 
 `docker images -a`
 
-5. If you want to push the image to the dockerhub then, login and create a tag and push.
+If you want to push the image to the dockerhub then, login and create a tag and push.
 
 `docker login` 
 
