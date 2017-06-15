@@ -1,3 +1,9 @@
+---
+layout: post
+title: Managing Containers In Docker
+categories: Docker
+---
+
 In this post, I will walk through the basic commands which are often used while dealing with containers. We will look into starting, stopping, restarting and removing containers. We will also have a look at the processes running inside a container and how we can get the low level information about containers. Finally, we will look at removing containers.
 
 **Start, Stop and Restart Containers**
