@@ -54,10 +54,10 @@ Great! Now, we need to know the IP address of the container and one of the ways 
 
 Now, that we have the IP address for the container, let's go to the browser and hit 172.17.0.2:80. Replace this IP with the IP address of your container.
 
-You should see a apache web server page being served :)
+You should see a apache web server page being served :slight_smile:
 
 Now, one important note is that every time when a `RUN` instruction is used in the Dockerfile, a new layer of image is created. Creating too many layers is not a good idea and therefore you can see that we have clubbed the installation of ping, nano and apache webserver in one `RUN` instruction. This helps reduce the overall size of the image. 
 
 That's all for this post. This is just to get you familar with the Dockerfile basics and instructions. I hope it has been helpful. If you would like to suggest any modifications to the post, please feel free to get in touch. I will be happy to make the revisions and improve the quality further. 
 
-Thank you for reading :) :+1:!
+Thank you for reading :slight_smile:
