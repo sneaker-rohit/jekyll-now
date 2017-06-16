@@ -1,3 +1,5 @@
+:docker: :linux: 
+
 In this post, I will walk through the basics of building an image from a Dockerfile. In order to do so, we will understand some of the Dockerfile instructions. Furthermore, we will have a look at the image layers and their relation to the Dockerfile. 
 
 Dockerfile is a way of providing instructions that must be followed while creating a new image. We can build the images from a Dockerfile by using the `docker build` command. 
